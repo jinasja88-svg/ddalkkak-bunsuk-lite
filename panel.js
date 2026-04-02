@@ -2,8 +2,8 @@
 
 // ===== 설정 (API 키는 config.js에서 로드) =====
 // GEMINI_API_KEY는 config.js에서 정의됨
-const GEMINI_MODEL = 'gemini-2.0-flash';
-const PRICE = { input: 0.025, output: 0.10 };
+const GEMINI_MODEL = 'gemini-2.0-flash-lite';
+const PRICE = { input: 0.01, output: 0.04 };
 const KRW_RATE = 1380;
 
 // ===== 상태 =====
